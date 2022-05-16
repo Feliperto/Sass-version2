@@ -1,0 +1,142 @@
+/*display flex*/
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav, #banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../img/sasss.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/sasss.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  height: 80px;
+}
+
+.logo {
+  padding-left: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+.nav li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav a:hover {
+  color: coral;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+nav, #banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#banner {
+  height: calc(100vh - 80px);
+}
+
+.caja {
+  text-align: center;
+}
+
+.caja h2 {
+  color: white;
+  font-size: 60px;
+}
+
+.caja button {
+  padding: 16px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.caja a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.caja button:hover {
+  background-color: coral;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+%align-center
+{
+    display: flex;
+    align-items: center;
+}
+
+%justify-center
+{
+    display: flex;
+    justify-content: center;
+}
+#banner
+{
+    @extend %justify-center, %align-center;
+    height: calc(100vh - 80px);
+}
+
+.caja
+{
+    text-align: center;
+
+    h2
+    {
+        color: white;
+        font-size: 60px;
+    }
+
+    button
+    {
+        padding: 16px 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid #fff;
+        background: transparent;
+        cursor: pointer;
+        transition: all .8s;
+    }
+
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    button:hover
+    {
+        background-color: coral;
+        transition: all .8s ease;
+    }
+}

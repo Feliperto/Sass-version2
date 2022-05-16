@@ -1,0 +1,5 @@
+@mixin image {
+    background-image: linear-gradient(rgba(0,0,0,0.7)), url(../img/sasss.webp);
+    background-size: cover;
+    background-position: center;    
+}
